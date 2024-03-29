@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f7; /* Menambahkan warna latar belakang keseluruhan halaman */
+}
+
+.container {
+    background-color: #bec4b7;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #049983;
+    border-radius: 30px; /* Perbaikan typo */
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(14, 122, 95, 0.548);
+    position: relative; /* Menambahkan posisi relatif untuk container */
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #caa008;
+  color: #870a0a;
+  padding: 20px;
+  margin-top: -10px; /* Menghilangkan margin atas default */
+  margin-bottom: 10px;
+  position: absolute; /* Menambahkan posisi absolut untuk header */
+  top: 0; /* Menempatkan header di bagian atas container */
+  left: 0; /* Menempatkan header di sebelah kiri container */
+  right: 0; /* Menempatkan header di sebelah kanan container */
+  z-index: 1;
+}
+
+.container1 {
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center; /* Pusatkan konten di dalam container1 */
+  position: relative; /* Tambahkan posisi relatif */
+  z-index: 2; /* Tambahkan indeks z untuk mengontrol kedalaman tumpukan elemen */
+}
+
+.container2 {
+  position: relative; /* Tambahkan posisi relatif */
+  z-index: 2; /* Tambahkan indeks z untuk mengontrol kedalaman tumpukan elemen */
+}
+
+.container1 .left-image,
+.container1 .right-image {
+  display: inline-block; 
+  margin:80px 30px 0; 
+  position: relative; /* Tambahkan posisi relatif */
+  z-index: 1; /* Tambahkan indeks z untuk mengontrol kedalaman tumpukan elemen */
+}
+
+.container1 .left-image img,
+.container1 .right-image img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.container1 .right-content {
+  margin-top: 0;
+}
+
+.container1 p {
+  text-align: justify;
+}
+
+.container2 p {
+  text-align: justify;
+  margin-top: 0px;
+}
+
+.container3 .bottom-images {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container3 .bottom-images img {
+  width: 300px; /* Mengatur lebar gambar menjadi 300px */
+  height: auto; /* Menyesuaikan tinggi gambar secara otomatis */
+  margin: 0px; /* Memberikan jarak antara gambar */
+  border-radius: 30px; /* Membuat sudut gambar menjadi sedikit melingkar */
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: rgb(10, 103, 75); /* Ubah warna latar belakang tombol menjadi pink */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
